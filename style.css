@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #80F0B4;
+}
+.container{
+    background-color: transparent;
+    width: 90%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    height: 30vh;
+    background-color: #30D6F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav i{
+    font-size: 2em;
+    background-color: red;
+    border-radius: 50%;
+    margin: 10px;
+}
+main{
+    background: aqua;
+    width: 100%;
+    height: 90vh;
+}
+main .inputs{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: aqua;
+}
+main .inputs input{
+    background: rgb(233, 227, 227);
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    width: 50%;
+    border-radius: 10px;
+}
+main .inputs button{
+    color: white;
+    background-color: rgb(31, 130, 68);
+    border-bottom-color: rgb(31, 130, 68);
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    height: 31px;
+    margin: 10px;
+    transition: all 0.5s ease;
+}
+main .inputs button:hover{
+    background-color: rgb(64, 167, 101);
+}
+main .outputs{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    resize: none;
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+}
+
