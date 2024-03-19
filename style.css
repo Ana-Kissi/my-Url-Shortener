@@ -44,7 +44,7 @@ main .inputs{
     background: aqua;
 }
 main .inputs input{
-    background: rgb(233, 227, 227);
+    background: white;
     border: none;
     border-bottom: 1px solid black;
     margin: 10px;
